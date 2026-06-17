@@ -40,3 +40,5 @@ networks:
 
 volumes:
   postgres_data:
+
+command: npm install && npm start
