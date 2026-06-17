@@ -9,7 +9,6 @@ COPY package*.json ./
 
 # Install only production dependencies
 RUN npm ci --omit=dev
-RUN npm install --production
 
 # Bundle app source
 COPY . .
