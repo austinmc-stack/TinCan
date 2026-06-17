@@ -15,7 +15,6 @@ services:
         condition: service_healthy
     networks:
       - titan-network
-    command: npm install && npm start
    
 
   db:
